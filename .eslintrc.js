@@ -5,6 +5,8 @@ module.exports = {
   },
   'extends': [
     'google',
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint"
   ],
   'parser': '@typescript-eslint/parser',
   'parserOptions': {
@@ -13,7 +15,9 @@ module.exports = {
   },
   'plugins': [
     '@typescript-eslint',
+    "prettier"
   ],
   'rules': {
+    "prettier/prettier": "error"
   },
 };

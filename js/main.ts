@@ -2,9 +2,9 @@
  * あいさつ
  * @param {string} name
  */
-function sayHello(name: string):void {
+function sayHello(name: string): void {
   console.log(`Hello, ${name}!`);
 }
 
-const myName = 'TypeScript';
+const myName = "TypeScript";
 sayHello(myName);
